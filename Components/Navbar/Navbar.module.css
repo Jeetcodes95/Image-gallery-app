@@ -1,0 +1,91 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1vmax;
+  font-family: gilroy;
+  z-index: 999999;
+  background-color: #fff;
+}
+.Navleftpart {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.searchbar {
+  width: 80%;
+  height: 100%;
+  background-color: #eeeeee;
+  border-radius: 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.Navlink {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+.decoration {
+  text-decoration: none;
+  color: #090909;
+  font-weight: 100;
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.focus {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+.form {
+  width: 100%;
+}
+.profile {
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+.photo {
+  padding: 5px;
+}
+.btn {
+  border: none;
+  background-color: transparent;
+}
+@media only screen and (max-width: 600px) {
+  .photo {
+    display: none;
+  }
+  .Navlink {
+    display: none;
+  }
+  .bell {
+    display: none;
+  }
+  .searchbar {
+    width: 40vmax;
+    height: 80%;
+  }
+  .Navleftpart {
+    width: 65vw;
+  }
+}

@@ -1,0 +1,96 @@
+.Search {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  /* background-color: blueviolet; */
+  padding-top: 100px;
+}
+.background {
+  position: relative;
+  width: 100%;
+  height: 62vh;
+  /* background-color: brown; */
+  /* background-image: url(/Assets/images/bgimage.avif); */
+  background-size: cover;
+  background-position-y: 50%;
+  background-repeat: no repeat;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #00000070;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchtext {
+  position: relative;
+  /* padding: 5vw; */
+  width: 45%;
+  /* height: 50%; */
+  /* background-color: #e83838; */
+  font-family: gilroy;
+  margin: 0 auto;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  color: #fff;
+  /* justify-content: center; */
+}
+.focus {
+  outline: none;
+  display: flex;
+  height: 50px;
+  gap: 20px;
+  /* overflow: hidden; */
+  /* align-items: center; */
+  /* background-color: red; */
+}
+.SearchBorder {
+  background-color: rgb(255, 255, 255) !important;
+  border-radius: 5px !important;
+}
+.Search_btn {
+  height: 100%;
+  /* padding: 30px; */
+  padding: 0 2vw;
+  font-weight: 900;
+  font-size: 15px;
+  background-color: cadetblue;
+  border: none;
+  border-radius: 5px !important;
+}
+.SearchHeading {
+  font-size: 3vmax;
+}
+.SearchPara {
+  font-size: 1vmax;
+  font-weight: 500;
+  margin: 2rem 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .focus {
+    height: 100px;
+    flex-direction: column;
+  }
+  .SearchBorder {
+    height: 50%;
+    width: 100% !important;
+  }
+  .Search_btn {
+    font-size: 13px;
+  }
+  .SearchHeading {
+    font-size: 5vmax;
+  }
+  .searchtext {
+    width: 80%;
+  }
+  .SearchPara {
+    font-size: 1em;
+  }
+}

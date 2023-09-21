@@ -1,0 +1,29 @@
+.mainPage {
+  padding: 2rem;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1605463969216-21e9e8a81d3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2091&q=80");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  padding: 20px 40px;
+  background-color: rgb(53, 107, 123);
+  border-radius: 40px;
+  text-decoration: none;
+  transition: box-shadow 0.3s ease;
+  font-size: 2vmax;
+  color: rgb(255, 253, 253);
+  border: none;
+  font-family: gilroy;
+  font-weight: 500;
+  pointer-events: all;
+}
+.linkbtn {
+  margin-right: 20px;
+  cursor: pointer;
+}

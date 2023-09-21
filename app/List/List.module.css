@@ -1,0 +1,174 @@
+.image_wrapper {
+  width: 100vw;
+  /* margin: 5rem auto; */
+  overflow: hidden;
+  padding: 8rem 20rem;
+}
+.card {
+  position: relative;
+  list-style: none;
+  columns: 3;
+}
+.img_dets_cntr {
+  position: relative;
+  margin-bottom: 20px;
+  overflow: hidden;
+  /* transition: color 0.1s ease-in-out; */
+}
+.image_anchor {
+  width: fit-content;
+  height: fit-content;
+  cursor: zoom-in;
+}
+.ImgParent {
+  height: 100%;
+  position: relative;
+}
+.ImgParent img {
+  width: 100%;
+  height: 100%;
+}
+.Details_Cntr {
+  opacity: 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(255, 0, 0); */
+  padding: 20px;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.img_dets_cntr:hover .Details_Cntr {
+  opacity: 1;
+  z-index: 15;
+  background-image: linear-gradient(
+    180deg,
+    #00000057 0,
+    rgba(0, 0, 0, 0.338) 3.5%,
+    rgba(0, 0, 0, 0.324) 7%,
+    rgba(0, 0, 0, 0.306) 10.35%,
+    rgba(0, 0, 0, 0.285) 13.85%,
+    rgba(0, 0, 0, 0.262) 17.35%,
+    rgba(0, 0, 0, 0.237) 20.85%,
+    rgba(0, 0, 0, 0.213) 24.35%,
+    rgba(0, 0, 0, 0.188) 27.85%,
+    rgba(0, 0, 0, 0.165) 31.35%,
+    rgba(0, 0, 0, 0.144) 34.85%,
+    rgba(0, 0, 0, 0.126) 38.35%,
+    rgba(0, 0, 0, 0.112) 41.85%,
+    rgba(0, 0, 0, 0.103) 45.35%,
+    #0000001a 48.85%,
+    rgba(0, 0, 0, 0.103) 52.35%,
+    rgba(0, 0, 0, 0.112) 55.85%,
+    rgba(0, 0, 0, 0.126) 59.35%,
+    rgba(0, 0, 0, 0.144) 62.85%,
+    rgba(0, 0, 0, 0.165) 66.35%,
+    rgba(0, 0, 0, 0.188) 69.85%,
+    rgba(0, 0, 0, 0.213) 73.35%,
+    rgba(0, 0, 0, 0.237) 76.85%,
+    rgba(0, 0, 0, 0.262) 80.35%,
+    rgba(0, 0, 0, 0.285) 83.85%,
+    rgba(0, 0, 0, 0.306) 87.35%,
+    rgba(0, 0, 0, 0.324) 90.85%,
+    rgba(0, 0, 0, 0.338) 94.35%,
+    rgba(0, 0, 0, 0.347) 97.85%,
+    #00000059
+  );
+}
+.bgColor {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  pointer-events: none;
+  height: 100%;
+}
+.Details_Top {
+  width: 100%;
+  height: 50px;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  pointer-events: all;
+}
+.LikeAdd {
+  display: grid;
+  gap: 5px;
+  grid-auto-flow: column;
+  justify-self: end;
+  cursor: pointer;
+}
+.Btn {
+  position: relative;
+  cursor: pointer;
+  pointer-events: none;
+  /* display: inline-flex; */
+  align-items: center;
+  fill: currentColor;
+  background-color: #fff;
+  border: 1px solid #000;
+  box-shadow: 0 1px 2px #0000000f;
+  color: #555;
+  font-size: 14px;
+  height: 32px;
+  font-size: 14px;
+  /* line-height: 30px; */
+  padding: 0 11px;
+  line-height: 0 11px;
+  border-radius: 4px;
+  cursor: pointer;
+  pointer-events: all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Btn a {
+  color: #555;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.Btn:hover svg {
+  color: #000;
+}
+.Left_Dp_Dets_Cntr {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  font-family: gilroy;
+  gap: 5px;
+}
+.Dp {
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+.Dp img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: centre;
+}
+
+.Name_avilable_div {
+  position: relative;
+  /* background-color: blue; */
+}
+.hire {
+  display: flex;
+  align-items: center;
+}
+.Name_avilable_div a {
+  text-decoration: none;
+  color: #fff;
+}
