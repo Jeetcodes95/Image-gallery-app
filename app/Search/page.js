@@ -24,7 +24,7 @@ const page = () => {
   };
 
   let DownloadImage = `&force=true`; //for download image
-  let searchrender = <p>Loding...</p>;
+  let searchrender = <p>Loading...</p>;
   if (Images.length > 0) {
     searchrender = Images.map((d, i) => {
       return (
